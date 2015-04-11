@@ -39,12 +39,16 @@
     background-color: green;
 }
 
+#content {
+    text-align: center;
+}
+
 #sidebar {
     height: 273px;
     margin: 20px;
 }
 
-h2 {
+h2, h3 {
     font-family: 'Cantarell', sans-serif;
     color: #0281CF;
 }
@@ -75,6 +79,7 @@ p {
     color: #232D77;
     text-transform: uppercase;
     display: inline-block;
+    margin: 10px;
 }
 
 .button:hover {
