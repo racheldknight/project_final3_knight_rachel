@@ -46,11 +46,13 @@
 #sidebar {
     height: 273px;
     margin: 20px;
+    padding: 10px;
 }
 
 h2, h3 {
     font-family: 'Cantarell', sans-serif;
     color: #0281CF;
+    margin: 0;
 }
 
 main {
@@ -103,6 +105,11 @@ p {
 
 #content {
     padding: 10px;
+}
+
+.promo {
+    padding: 5px;
+    border-bottom: 2px solid #0281CF;
 }
 
 footer {
