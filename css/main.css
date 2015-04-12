@@ -71,7 +71,6 @@ ul {
 
 .mix {
     display: inline-block;
-    width: 30%;
     vertical-align: top;
     border: 1px solid #3f3E3E;
     margin-bottom: 5px;
@@ -181,6 +180,9 @@ footer p {
     .contact-block {
         text-align: center;
     }
+    .mix {
+        width: 90%;
+    }
 }
 
 @media (min-width: 400px) {
@@ -189,6 +191,12 @@ footer p {
     }
     #logo img {
         width: 40%;
+    }
+}
+
+@media (min-width: 475px) {
+    .mix {
+        width: 49%;
     }
 }
 
@@ -202,6 +210,9 @@ footer p {
     }
     .event-block {
         padding-left: 20px;
+    }
+    .mix {
+        width: 30%;
     }
 }
 
