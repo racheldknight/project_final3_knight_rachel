@@ -45,7 +45,7 @@
     background-color: green;
 }
 
-#content {
+#content, #Container {
     text-align: center;
 }
 
@@ -63,6 +63,20 @@ ul {
 
 .contact-block {
     padding: 20px;
+}
+
+.mix {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    border: 1px solid #3f3E3E;
+    margin-bottom: 5px;
+    height: auto;
+}
+
+.mix h3 {
+    background-color: #232D77;
+    color: #fff;
 }
 
 #sidebar {
