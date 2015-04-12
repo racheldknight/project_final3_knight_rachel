@@ -65,6 +65,10 @@ ul {
     padding: 20px;
 }
 
+#Container .mix{
+    display: none;
+}
+
 .mix {
     display: inline-block;
     width: 30%;
