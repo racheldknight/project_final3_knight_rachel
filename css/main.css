@@ -49,10 +49,28 @@
     text-align: center;
 }
 
+li {
+    font-family: Arial, sans-serif;
+    font-size: 0.9em;
+    color: #3f3E3E;
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+ul {
+    padding: 0;
+}
+
+.contact-block {
+    text-align: left;
+    padding: 20px;
+    display: inline-block;
+}
+
+
 #sidebar {
     height: 273px;
     margin: 20px;
-    padding: 10px;
 }
 
 h2, h3 {
@@ -183,9 +201,7 @@ footer p {
         width: 64%;
     }
     #sidebar {
-        float: left;
-        width: 30%;
-        margin: 0 0 20px;
+        width: 26%;
     }
     footer {
         clear: both;
