@@ -36,7 +36,7 @@
 
 #wrapper {
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 1050px;
 }
 
 #carousel {
@@ -62,9 +62,7 @@ ul {
 }
 
 .contact-block {
-    text-align: left;
     padding: 20px;
-    display: inline-block;
 }
 
 
@@ -116,7 +114,6 @@ p {
 .hyper a:link {
     text-decoration: none;
     color: #E8BC1B;
-    font-weight: bold;
 }
 
 .hyper a:hover {
@@ -164,6 +161,9 @@ footer p {
     h1, h2 {
         text-align: center;
     }
+    .contact-block {
+        text-align: center;
+    }
 }
 
 @media (min-width: 400px) {
@@ -177,6 +177,10 @@ footer p {
 
 @media (min-width: 550px) {
     h1, h2 {
+        text-align: left;
+    }
+    .contact-block {
+        display: inline-table;
         text-align: left;
     }
 }
@@ -198,10 +202,13 @@ footer p {
     }
     main {
         float: right;
-        width: 64%;
+        width: 67%;
     }
     #sidebar {
         width: 26%;
+    }
+    .contact-block {
+        float: left;
     }
     footer {
         clear: both;
