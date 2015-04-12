@@ -65,9 +65,8 @@ ul {
     padding: 20px;
 }
 
-
 #sidebar {
-    height: 273px;
+    height: auto;
     margin: 20px;
 }
 
@@ -176,12 +175,15 @@ footer p {
 }
 
 @media (min-width: 550px) {
-    h1, h2 {
+    h1, h2, .event-block {
         text-align: left;
     }
     .contact-block {
         display: inline-table;
         text-align: left;
+    }
+    .event-block {
+        padding-left: 20px;
     }
 }
 
