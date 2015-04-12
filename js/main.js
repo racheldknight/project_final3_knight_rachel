@@ -1,3 +1,4 @@
 $(document).ready( function(){
-        $('#Container').mixItUp();
+    $('#Container').mixItUp();
+
 });
