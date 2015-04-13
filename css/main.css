@@ -120,6 +120,7 @@ p {
     text-transform: uppercase;
     display: inline-block;
     margin: 10px;
+    cursor: pointer;
 }
 
 .button:hover {
