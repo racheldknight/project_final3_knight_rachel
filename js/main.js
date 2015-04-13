@@ -9,7 +9,9 @@ $(document).ready ( function () {
         autoplay: true,
         speed: 300,
         slidesToShow: 1,
-        adaptiveHeight: true
+        adaptiveHeight: true,
+        mobileFirst: true,
+        arrows: false
     });
 
 });
