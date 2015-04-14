@@ -1,8 +1,6 @@
-$(document).ready ( function () {
+jQuery(document).ready ( function () {
     $('#Container').mixItUp();
-});
 
-$(document).ready ( function () {
     $('.carousel').slick({
         dots: true,
         infinite: true,
@@ -14,10 +12,9 @@ $(document).ready ( function () {
         arrows: false
     });
 
-});
 
-$(document).ready ( function () {
     $('#contact_tabs').responsiveTabs({
-        startCollapsed: 'accordion',
+        startCollapsed: 'accordion'
     });
+
 });
