@@ -18,6 +18,6 @@ $(document).ready ( function () {
 
 $(document).ready ( function () {
     $('#contact_tabs').responsiveTabs({
-        startCollapsed: 'accordion'
+        startCollapsed: 'accordion',
     });
 });
