@@ -12,7 +12,7 @@
     padding: 20px;
 }
 
-.r-tabs a:link {
+.r-tabs-anchor {
     color: #fff;
     text-decoration: none;
 }
