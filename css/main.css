@@ -1,3 +1,7 @@
+.hidden {
+    display: none;
+}
+
 #nav {
     width: calc(100% - 14px);
     background-color: #BF2227;

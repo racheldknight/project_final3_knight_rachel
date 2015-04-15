@@ -14,7 +14,7 @@ jQuery(document).ready ( function () {
 
 
     $('#contact_tabs').responsiveTabs({
-        startCollapsed: 'accordion'
+        startCollapsed: false
     });
 
 });
