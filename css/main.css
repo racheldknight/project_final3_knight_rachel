@@ -6,6 +6,7 @@
     width: calc(100% - 14px);
     background-color: #BF2227;
     padding: 7px;
+    text-align: center;
 }
 
 #nav ul {
