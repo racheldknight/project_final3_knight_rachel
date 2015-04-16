@@ -9,7 +9,7 @@
     text-align: center;
 }
 
-#nav ul {
+ul {
     padding: 0;
 }
 
@@ -31,6 +31,12 @@
 
 #nav a:visited {
     color: #fff;
+}
+
+ul li {
+    list-style-type: none;
+    padding-bottom: 10px;
+
 }
 
 .active {
@@ -105,7 +111,7 @@ h1 {
     text-transform: uppercase;
 }
 
-p {
+p, li {
     font-family: Arial, sans-serif;
     font-size: 0.9em;
     color: #3f3E3E;
