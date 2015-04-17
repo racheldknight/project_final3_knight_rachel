@@ -1,3 +1,25 @@
+h2, h3 {
+    font-family: 'Cantarell', sans-serif;
+    color: #0281CF;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    color: #232D77;
+    text-transform: uppercase;
+}
+
+p, li {
+    font-family: Arial, sans-serif;
+    font-size: 0.9em;
+    color: #3f3E3E;
+}
+
 .hidden {
     display: none;
 }
@@ -7,10 +29,6 @@
     background-color: #BF2227;
     padding: 7px;
     text-align: center;
-}
-
-ul {
-    padding: 0;
 }
 
 #nav ul li {
@@ -33,88 +51,19 @@ ul {
     color: #fff;
 }
 
-ul li {
-    list-style-type: none;
-    padding-bottom: 10px;
-
-}
-
 .active {
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
 }
 
-
-#wrapper {
-    margin: 0 auto;
-    max-width: 1050px;
+ul {
+    padding: 0;
 }
 
-.carousel img {
-    width: 100%;
-}
+ul li {
+    list-style-type: none;
+    padding-bottom: 10px;
 
-#content, #Container {
-    text-align: center;
-}
-
-#Container .mix{
-    display: none;
-}
-
-.mix {
-    display: inline-block;
-    vertical-align: top;
-    border: 1px solid #3f3E3E;
-    margin-bottom: 5px;
-    height: auto;
-}
-
-.mix h3, .event-block h3 {
-    background-color: #232D77;
-    color: #fff;
-}
-
-.event-block {
-    text-align: center;
-    display: inline-block;
-    border: 1px solid #3f3E3E;
-    margin-bottom: 5px;
-}
-
-.event-block p {
-    padding: 10px;
-}
-
-#sidebar {
-    height: auto;
-    margin: 20px;
-}
-
-#contact_tabs {
-    text-align: left;
-}
-
-h2, h3 {
-    font-family: 'Cantarell', sans-serif;
-    color: #0281CF;
-    margin: 0;
-}
-
-main {
-    padding: 20px;
-}
-
-h1 {
-    font-family: 'Fjalla One', sans-serif;
-    color: #232D77;
-    text-transform: uppercase;
-}
-
-p, li {
-    font-family: Arial, sans-serif;
-    font-size: 0.9em;
-    color: #3f3E3E;
 }
 
 .button {
@@ -149,8 +98,58 @@ p, li {
     color: #ad9231;
 }
 
+#wrapper {
+    margin: 0 auto;
+    max-width: 1050px;
+}
+
+#sidebar {
+    height: auto;
+    margin: 20px;
+}
+
 #content {
     padding: 10px;
+}
+
+#content, #Container {
+    text-align: center;
+}
+
+.carousel img {
+    width: 100%;
+}
+
+#Container .mix{
+    display: none;
+}
+
+.mix {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #3f3E3E;
+    margin-bottom: 5px;
+    height: auto;
+}
+
+.mix h3, .event-block h3 {
+    background-color: #232D77;
+    color: #fff;
+}
+
+.event-block {
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #3f3E3E;
+    margin-bottom: 5px;
+}
+
+.event-block p {
+    padding: 10px;
+}
+
+#contact_tabs {
+    text-align: left;
 }
 
 .promo {
